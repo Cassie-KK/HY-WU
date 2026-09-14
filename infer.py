@@ -1,7 +1,7 @@
 from wu import WUPipeline
 
-base_model_path = "tencent/HunyuanImage-3.0-Instruct"
-pg_model_path = "tencent/HY-WU"
+base_model_path = "tencent/HunyuanImage-3.0-Instruct" # backbone
+pg_model_path = "tencent/HY-WU"  # para gen
 
 pipeline = WUPipeline(
     base_model_path=base_model_path,
